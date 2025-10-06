@@ -221,9 +221,6 @@
             margin-bottom: 40px;
             border-radius: 12px;
             box-shadow: var(--shadow-soft);
-            position: sticky;
-            top: 30px;
-            z-index: 100;
             border: 1px solid var(--border-subtle);
         }
         
@@ -520,8 +517,8 @@
         const logo = document.getElementById('logo');
         const html = document.documentElement;
         
-        // Check for saved theme preference or default to dark mode
-        const currentTheme = localStorage.getItem('theme') || 'dark';
+        // Check for saved theme preference or default to light mode
+        const currentTheme = localStorage.getItem('theme') || 'light';
         html.setAttribute('data-theme', currentTheme);
         
         // Update logo based on theme
