@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms and Conditions - NyayX</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Dark Mode Variables (Default) */
+        :root {
+            --primary-color: #121212;
+            --secondary-color: #b8965a; /* Refined gold */
+            --accent-color: #d4af37;
+            --text-primary: #f8f8f8;
+            --text-secondary: #d0d0d0;
+            --text-muted: #a0a0a0;
+            --bg-primary: #121212;
+            --bg-secondary: #1a1a1a;
+            --bg-card: #1e1e1e;
+            --bg-elevated: #252525;
+            --border-subtle: #2a2a2a;
+            --border-light: #333333;
+            --shadow-soft: 0 2px 8px rgba(0,0,0,0.15);
+            --shadow-medium: 0 4px 16px rgba(0,0,0,0.2);
+            --shadow-strong: 0 8px 32px rgba(0,0,0,0.25);
+            --golden-gradient: linear-gradient(135deg, #b8965a, #d4af37);
+            --transition-smooth: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+        
+        /* Light Mode Variables */
+        [data-theme="light"] {
+            --primary-color: #f8f8f8;
+            --secondary-color: #b8965a; /* Refined gold */
+            --accent-color: #a67c52;
+            --text-primary: #121212;
+            --text-secondary: #333333;
+            --text-muted: #666666;
+            --bg-primary: #f8f8f8;
+            --bg-secondary: #ffffff;
+            --bg-card: #ffffff;
+            --bg-elevated: #ffffff;
+            --border-subtle: #e0e0e0;
+            --border-light: #d0d0d0;
+            --shadow-soft: 0 2px 8px rgba(0,0,0,0.08);
+            --shadow-medium: 0 4px 16px rgba(0,0,0,0.12);
+            --shadow-strong: 0 8px 32px rgba(0,0,0,0.15);
+            --golden-gradient: linear-gradient(135deg, #b8965a, #d4af37);
+            --transition-smooth: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-secondary);
+            background-color: var(--bg-primary);
+            background-image:
+                radial-gradient(circle at 15% 25%, rgba(184, 150, 90, 0.02) 0%, transparent 40%),
+                radial-gradient(circle at 85% 75%, rgba(184, 150, 90, 0.01) 0%, transparent 40%);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            padding: 60px 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: var(--shadow-soft);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: var(--golden-gradient);
+            opacity: 0.7;
+        }
+        
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .logo {
+            height: 135px;
+            width: auto;
+            transition: var(--transition-smooth);
+        }
+        
+        header p {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            font-weight: 300;
+        }
+        
+        /* Theme Toggle */
+        .theme-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #1e1e1e;
+            border-radius: 50px;
+            padding: 4px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            border: 2px solid #404040;
+            cursor: pointer;
+            width: 70px;
+            height: 36px;
+            transition: var(--transition-smooth);
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        [data-theme="light"] .theme-toggle {
+            background: #ffffff;
+            border-color: #d0d0d0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .theme-toggle:hover {
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+            transform: translateY(-1px);
+        }
+
+        [data-theme="light"] .theme-toggle:hover {
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .theme-toggle-slider {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 8px;
+        }
+
+        .theme-toggle-slider::before {
+            content: '';
+            position: absolute;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #7c3aed, #5b21b6);
+            transition: var(--transition-smooth);
+            left: 4px;
+            top: 50%;
+            transform: translateY(-50%);
+            box-shadow: 0 2px 10px rgba(124, 58, 237, 0.6);
+        }
+
+        [data-theme="light"] .theme-toggle-slider::before {
+            left: calc(100% - 32px);
+            background: linear-gradient(135deg, #fbbf24, #f59e0b);
+            box-shadow: 0 2px 10px rgba(251, 191, 36, 0.6);
+        }
+
+        .theme-icon {
+            font-size: 14px;
+            z-index: 1;
+            width: 16px;
+            height: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition-smooth);
+        }
+
+        .theme-icon.moon {
+            color: #666666;
+        }
+
+        .theme-icon.sun {
+            color: #666666;
+        }
+
+        [data-theme="light"] .theme-icon.sun {
+            color: #ffffff;
+            font-weight: 900;
+        }
+
+        [data-theme="light"] .theme-icon.moon {
+            color: #cbd5e1;
+        }
+
+        [data-theme="dark"] .theme-icon.moon {
+            color: #ffffff;
+            font-weight: 900;
+        }
+
+        [data-theme="dark"] .theme-icon.sun {
+            color: #666666;
+        }
+        
+        /* Navigation */
+        nav {
+            background: var(--bg-elevated);
+            padding: 20px 0;
+            margin-bottom: 40px;
+            border-radius: 12px;
+            box-shadow: var(--shadow-soft);
+            position: sticky;
+            top: 30px;
+            z-index: 100;
+            border: 1px solid var(--border-subtle);
+        }
+        
+        .nav-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+        
+        .nav-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 400;
+            transition: var(--transition-smooth);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            letter-spacing: 0.3px;
+        }
+        
+        .nav-link:hover {
+            color: var(--text-primary);
+            background: rgba(184, 150, 90, 0.08);
+        }
+        
+        .nav-link.active {
+            color: var(--bg-primary);
+            background: var(--golden-gradient);
+            font-weight: 500;
+        }
+        
+        .content {
+            background: var(--bg-elevated);
+            padding: 50px;
+            border-radius: 12px;
+            box-shadow: var(--shadow-medium);
+            border: 1px solid var(--border-subtle);
+        }
+        
+        h2 {
+            color: var(--text-primary);
+            font-size: 1.9rem;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border-light);
+            padding-bottom: 12px;
+            font-weight: 300;
+            letter-spacing: 0.3px;
+        }
+        
+        h3 {
+            color: var(--text-primary);
+            font-size: 1.5rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-weight: 300;
+        }
+        
+        p {
+            margin-bottom: 18px;
+            color: var(--text-secondary);
+            font-weight: 300;
+            line-height: 1.7;
+        }
+        
+        ul {
+            margin-bottom: 25px;
+            padding-left: 30px;
+        }
+        
+        li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+            font-weight: 300;
+            line-height: 1.6;
+        }
+        
+        .highlight {
+            background: rgba(184, 150, 90, 0.05);
+            padding: 20px;
+            border-left: 2px solid var(--secondary-color);
+            margin: 20px 0;
+            border-radius: 6px;
+        }
+        
+        .golden-box {
+            background: var(--golden-gradient);
+            color: var(--bg-primary);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-weight: 300;
+            box-shadow: var(--shadow-soft);
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 30px;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            background: var(--bg-elevated);
+            border-radius: 12px;
+            box-shadow: var(--shadow-soft);
+            border: 1px solid var(--border-subtle);
+        }
+        
+        footer a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: 400;
+        }
+        
+        footer a:hover {
+            color: var(--accent-color);
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+            
+            .nav-container {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="theme-toggle" id="theme-toggle">
+            <div class="theme-toggle-slider">
+                <i class="fas fa-moon theme-icon moon"></i>
+                <i class="fas fa-sun theme-icon sun"></i>
+            </div>
+        </div>
+        <div class="container">
+            <div class="logo-container">
+                <img src="logo_lightmode.png" alt="NyayX Logo" class="logo" id="logo">
+            </div>
+            <p>Your Trusted Legal Companion</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <!-- Navigation -->
+        <nav>
+            <div class="nav-container">
+                <a href="privacy_policy.html" class="nav-link">
+                    <i class="fas fa-shield-alt"></i>
+                    Privacy Policy
+                </a>
+                <a href="terms_and_conditions.html" class="nav-link active">
+                    <i class="fas fa-file-contract"></i>
+                    Terms & Conditions
+                </a>
+                <a href="contact_us.html" class="nav-link">
+                    <i class="fas fa-envelope"></i>
+                    Contact Us
+                </a>
+            </div>
+        </nav>
+        
+        <div class="content">
+            <h2>Terms and Conditions for NyayX</h2>
+            
+            <div class="golden-box">
+                <p><strong>Effective Date:</strong> October 1, 2025</p>
+            </div>
+            
+            <p>Welcome to NyayX. These Terms and Conditions ("Terms") govern your use of our mobile application and website (collectively, the "Service") operated by NyayX ("we," "us," or "our"). By accessing or using our Service, you agree to be bound by these Terms.</p>
+            
+            <h2>1. Acceptance of Terms</h2>
+            
+            <p>By accessing and using NyayX, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.</p>
+            
+            <h2>2. Description of Service</h2>
+            
+            <p>NyayX is a comprehensive solution designed for legal professionals to manage their daily routines, including court case management, financial records, junior associate management, and client accounts. Our service is intended for use by licensed legal professionals and law firms in India.</p>
+            
+            <h2>3. User Accounts</h2>
+            
+            <ul>
+                <li><strong>Registration:</strong> To access certain features of our Service, you must register for an account. You agree to provide accurate, current, and complete information during registration.</li>
+                <li><strong>Security:</strong> You are responsible for safeguarding the password that you use to access the Service and for any activities or actions under your password.</li>
+                <li><strong>Professional Credentials:</strong> Users must provide valid Bar Council registration numbers and other professional credentials as required by NyayX.</li>
+                <li><strong>Account Termination:</strong> We reserve the right to suspend or terminate your account if you violate any of these Terms.</li>
+            </ul>
+            
+            <h2>4. User Responsibilities</h2>
+            
+            <p>As a user of NyayX, you agree to:</p>
+            
+            <ul>
+                <li>Use the Service only for lawful purposes and in accordance with these Terms.</li>
+                <li>Not use the Service to transmit any content that is unlawful, defamatory, harassing, or violates any rights of any party.</li>
+                <li>Maintain the confidentiality of your client information and uphold professional ethics.</li>
+                <li>Not attempt to gain unauthorized access to our systems or networks.</li>
+                <li>Not use the Service to store or transmit malicious code or harmful content.</li>
+            </ul>
+            
+            <h2>5. Confidentiality and Data Protection</h2>
+            
+            <div class="highlight">
+                <p>We understand the critical importance of confidentiality in legal practice. We implement industry-standard security measures to protect your data. For detailed information about how we collect, use, and protect your information, please refer to our Privacy Policy.</p>
+            </div>
+            
+            <h2>6. Intellectual Property Rights</h2>
+            
+            <p>The Service and its original content, features, and functionality are and will remain the exclusive property of NyayX and its licensors. The Service is protected by copyright, trademark, and other laws.</p>
+            
+            <h2>7. Subscription and Payment</h2>
+            
+            <ul>
+                <li><strong>Subscription Plans:</strong> NyayX offers various subscription plans with different features and pricing.</li>
+                <li><strong>Payment:</strong> You agree to provide current, complete, and accurate purchase and account information for all purchases made at our store.</li>
+                <li><strong>Refund Policy:</strong> Refunds are handled according to our refund policy, which is available on our website.</li>
+                <li><strong>Automatic Renewal:</strong> Subscription plans may automatically renew unless cancelled before the renewal date.</li>
+            </ul>
+            
+            <h2>8. Prohibited Uses</h2>
+            
+            <p>You may not use our Service for any illegal or unauthorized purpose nor may you, in the use of the Service, violate any laws in your jurisdiction. This includes but is not limited to:</p>
+            
+            <ul>
+                <li>Sharing your account credentials with unauthorized individuals.</li>
+                <li>Using the Service to engage in any form of legal malpractice.</li>
+                <li>Attempting to reverse engineer or hack our systems.</li>
+                <li>Using the Service to store or transmit false or misleading information.</li>
+            </ul>
+            
+            <h2>9. Limitation of Liability</h2>
+            
+            <p>In no event shall NyayX, our directors, employees, partners, agents, suppliers, or affiliates be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your use of the service.</p>
+            
+            <h2>10. Indemnification</h2>
+            
+            <p>You agree to defend, indemnify and hold harmless NyayX and its licensee and licensors, and their employees, contractors, agents, officers and directors, from and against any and all claims, damages, obligations, losses, liabilities, costs or debt, and expenses.</p>
+            
+            <h2>11. Termination</h2>
+            
+            <p>We may terminate or suspend your account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.</p>
+            
+            <h2>12. Governing Law</h2>
+            
+            <p>These Terms shall be interpreted and governed by the laws of India, without regard to its conflict of law provisions. Any disputes relating to these terms will be subject to the exclusive jurisdiction of the courts of [City, State].</p>
+            
+            <h2>13. Changes to Terms</h2>
+            
+            <p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material, we will provide at least 30 days notice prior to any new terms taking effect.</p>
+            
+            <h2>14. Contact Information</h2>
+            
+            <div class="highlight">
+                <p>If you have any questions about these Terms and Conditions, please contact us at:</p>
+                <p><strong>Phone:</strong> +91 78382 49321<br>
+                <strong>Email:</strong> hello@bluesharktech.in</p>
+            </div>
+            
+            <h2>15. About the Developer</h2>
+            
+            <div class="highlight">
+                <p><strong>BLUE SHARK TECHNOLOGIES</strong></p>
+                <p>Email: hello@bluesharktech.in<br>
+                Address: A-75, Sector B-5/6, Loni, B Block, Tronica City<br>
+                Ghaziabad, Uttar Pradesh 201102<br>
+                India<br>
+                Phone: +91 87997 53675</p>
+            </div>
+            
+            <div class="golden-box">
+                <p>By using NyayX, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 NyayX. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Theme Toggle Functionality
+        const themeToggle = document.getElementById('theme-toggle');
+        const logo = document.getElementById('logo');
+        const html = document.documentElement;
+        
+        // Check for saved theme preference or default to dark mode
+        const currentTheme = localStorage.getItem('theme') || 'dark';
+        html.setAttribute('data-theme', currentTheme);
+        
+        // Update logo based on theme
+        function updateLogo(theme) {
+            if (theme === 'light') {
+                logo.src = 'logo_lightmode.png';
+            } else {
+                logo.src = 'logo_darkmode.png';
+            }
+        }
+        
+        // Set initial logo
+        updateLogo(currentTheme);
+        
+        // Toggle theme
+        themeToggle.addEventListener('click', function() {
+            const theme = html.getAttribute('data-theme');
+            const newTheme = theme === 'dark' ? 'light' : 'dark';
+            
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            
+            // Update logo
+            updateLogo(newTheme);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+Privacy Policy for NyayX: Your Trusted Legal Companion
+
+Effective Date: October 26, 2025
+
+This Privacy Policy outlines how NyayX ("we," "us," or "our") collects, utilizes, and safeguards your personal information when you access our mobile application and website. We are dedicated to upholding the highest standards of data privacy and confidentiality, particularly given the sensitive nature of the information handled by legal professionals. This policy is designed to be transparent and compliant with the Information Technology Act, 2000, and the Digital Personal Data Protection Act, 2023 (DPDP Act) of India.
+
+NyayX provides a comprehensive solution for legal professionals to manage their daily routines, including court case management, financial records, junior associate management, and client accounts.
+
+1. Information We Collect
+
+To provide you with our services, we collect the following types of information:
+
+Personal Identification Information: This includes your name, email address, phone number, Bar Council registration number, and office address.
+
+Case Information: Details of your court cases, including case numbers, client names, opposing party details, court documents, and hearing dates.
+
+Financial Information: We may collect financial data related to your professional practice, such as client billing details, expenses, and income, to help you manage your accounts.
+
+Junior and Staff Information: If you use our platform to manage your team, we will collect information about your junior lawyers and other staff members as provided by you.
+
+Usage Information: We gather data on how you interact with our app and website. This includes your IP address, device information, browser type, and the pages you visit.
+
+Cookies: Like many other online services, we use cookies to enhance your user experience. These small files help us remember your preferences and understand how you use our platform.
+
+2. How We Use Your Information
+
+The information we collect is used to:
+
+Provide, operate, and maintain our services.
+
+Personalize and improve your experience on the NyayX platform.
+
+Communicate with you about our services, including updates and new features.
+
+Manage your account and provide customer support.
+
+Process financial transactions related to your practice.
+
+Comply with legal obligations and enforce our terms of service.
+
+For research and development to enhance our offerings.
+
+3. Data Sharing and Disclosure
+
+We are committed to maintaining the confidentiality of your information and will not share it with third parties, except in the following circumstances:
+
+With Your Consent: We will share your information with third parties only with your explicit consent.
+
+For Legal Reasons: We may disclose your information if required by law or in response to a valid legal process, such as a court order or a government request.
+
+To Our Service Providers: We may share your information with third-party service providers who assist us in delivering our services, such as data hosting and payment processing. These providers are contractually obligated to protect your information and use it only for the purposes we specify.
+
+Business Transfers: In the event of a merger, acquisition, or sale of assets, your information may be transferred to the new entity. We will notify you before your information is transferred and becomes subject to a different privacy policy.
+
+4. Data Security
+
+We implement robust security measures to protect your information from unauthorized access, alteration, disclosure, or destruction. These measures include:
+
+Encryption: We use industry-standard encryption to protect your data both in transit and at rest.
+
+Access Control: Access to your personal information is restricted to authorized personnel who have a legitimate need to know.
+
+Regular Security Audits: We conduct regular security assessments to identify and address potential vulnerabilities.
+
+As a user, you also play a crucial role in data security. We urge you to use a strong and unique password for your NyayX account and to keep it confidential.
+
+5. Data Retention
+
+We will retain your personal information for as long as your account is active or as needed to provide you with our services. We may also retain your information to comply with our legal obligations, resolve disputes, and enforce our agreements. When your information is no longer needed, we will securely delete or anonymize it.
+
+6. Your Rights and Choices
+
+Under the DPDP Act, you have the following rights regarding your personal data:
+
+Right to Access: You have the right to access the personal information we hold about you.
+
+Right to Correction: You can request to correct any inaccurate or incomplete information.
+
+Right to Erasure: You can request the deletion of your personal information, subject to certain legal obligations.
+
+Right to Restrict Processing: You may have the right to request that we restrict the processing of your personal data in certain circumstances.
+
+Right to Data Portability: You have the right to receive your personal data in a structured, commonly used, and machine-readable format.
+
+Right to Withdraw Consent: You can withdraw your consent to our processing of your personal information at any time.
+
+To exercise any of these rights, please contact us at [Insert Grievance Officer Email Address].
+
+7. Lawyer-Client Confidentiality
+
+We understand the paramount importance of attorney-client privilege. The information you manage within NyayX related to your clients is treated with the utmost confidentiality. We do not access or use your client data for any purpose other than providing and maintaining the services you have subscribed to. Our platform is designed to be a secure environment for you to uphold your professional obligations of confidentiality.
+
+8. Third-Party Links
+
+Our website and app may contain links to third-party websites or services. We are not responsible for the privacy practices of these third parties. We encourage you to read their privacy policies before providing them with any personal information.
+
+9. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any material changes by posting the new policy on our website and app and updating the "Effective Date" at the top of this policy.
+
+By using the NyayX mobile app and website, you consent to the collection and use of your personal information as described in this Privacy Policy.
+

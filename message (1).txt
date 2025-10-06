@@ -1,0 +1,111 @@
+
+
+Welcome to NyayX. These Terms and Conditions ("Terms") govern your use of the NyayX mobile application and website ("Platform"), operated by Zevnixai private ltd. ("NyayX," "we," "us," or "our"). Our Platform provides a comprehensive solution for legal professionals to manage their daily routines, including case management, finances, junior associates, and client accounts.
+
+By accessing or using our Platform, you agree to be bound by these Terms and our Privacy Policy. If you do not agree to these Terms, you may not use the Platform.
+
+1. Definitions
+
+"Service" refers to all the features and functionalities provided by NyayX through its mobile app and website, including but not limited to case management, financial tracking, document storage, and team management tools.
+
+"User," "You," or "Your" refers to the legal professional or entity that has registered for an account on the NyayX Platform.
+
+"User Data" means all electronic data or information submitted by you to the Service, including information related to your cases, clients, finances, and team members.
+
+"Intellectual Property Rights" refers to all patents, copyrights, trademarks, trade secrets, and other proprietary rights.
+
+2. User Accounts and Eligibility
+
+To use the Service, you must register for an account. By registering, you represent and warrant that:
+
+You are a qualified legal professional, enrolled with a Bar Council in India.
+
+You are of legal age to form a binding contract.
+
+All information you provide during registration is accurate and complete, and you will keep this information updated.
+
+You are responsible for maintaining the confidentiality of your account password and for all activities that occur under your account. You agree to notify us immediately of any unauthorized use of your account.
+
+3. Scope of Services and License
+
+NyayX grants you a non-exclusive, non-transferable, revocable license to access and use the Service for your professional practice in accordance with these Terms.[1][2]
+
+You acknowledge that:
+
+The Service is a tool to assist in managing your legal practice. It does not provide legal advice.
+
+We reserve the right to modify, suspend, or discontinue the Service (or any part thereof) at any time, with or without notice.
+
+4. User Responsibilities and Acceptable Use
+
+You agree not to use the Service to:
+
+Upload or transmit any material that is unlawful, defamatory, obscene, or otherwise objectionable.
+
+Violate any applicable laws, regulations, or professional ethics.
+
+Infringe upon the intellectual property rights of others.
+
+Attempt to gain unauthorized access to our systems or engage in any activity that disrupts or interferes with the Service.
+
+You are solely responsible for your professional and ethical obligations, including maintaining attorney-client privilege. NyayX is a technology platform and is not liable for any breach of your professional duties.
+
+5. Intellectual Property Rights
+
+We retain all rights, title, and interest in and to the Service, including its software, design, content, and all underlying intellectual property.This grant of use is not a sale of the software or any copy of it. You agree not to copy, modify, create derivative works of, reverse engineer, decompile, or otherwise attempt to extract the source code of the Platform.
+
+6. User Data and Confidentiality
+
+You retain all ownership rights to your User Data. We will not access, view, or use your User Data except as necessary to provide, maintain, and support the Service, or as required by law.
+
+We implement robust security measures to protect the confidentiality and integrity of your User Data. Our data handling practices are detailed in our Privacy Policy. You are responsible for ensuring that your use of the Service complies with all applicable data protection laws.
+
+7. Fees, Payment, and Subscription
+
+Certain features of the Service may be provided for a fee. You agree to pay all applicable fees for your chosen subscription plan. All fees are non-refundable, except as required by law or as specified in your plan.
+
+Subscription fees will be billed in advance on a recurring basis (e.g., monthly or annually). Your subscription will automatically renew at the end of each billing cycle unless you cancel it through your account settings.
+
+8. Term and Termination
+
+These Terms will remain in effect as long as you use the Service. We may suspend or terminate your access to the Service at our sole discretion if you breach these Terms.
+Upon termination, your right to use the Service will cease immediately. We will provide you with a reasonable opportunity to retrieve your User Data, after which we may delete it in accordance with our data retention policy.
+
+9. Disclaimers and Limitation of Liability
+
+The Service is provided on an "AS IS" and "AS AVAILABLE" basis.[8] We make no warranties, express or implied, regarding the reliability, availability, or accuracy of the Service.
+
+To the maximum extent permitted by law, NyayX and its affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from:
+
+Your access to or use of or inability to access or use the Service.
+
+Any conduct or content of any third party on the Service.
+
+Any content obtained from the Service.
+
+Unauthorized access, use, or alteration of your transmissions or content.
+
+In no event shall our aggregate liability for all claims relating to the Service exceed the amount you paid us, if any, in the 12 months preceding the claim.[9] This limitation does not apply to liability arising from fraud or willful misconduct.
+
+10. Indemnification
+
+You agree to defend, indemnify, and hold harmless NyayX, its affiliates, and their respective officers, directors, employees, and agents from and against any and all claims, damages, obligations, losses, liabilities, costs, or debt, and expenses (including but not limited to attorney's fees) arising from:
+
+Your use of and access to the Service.
+
+Your violation of any term of these Terms.
+
+Your violation of any third-party right, including without limitation any copyright, property, or privacy right.
+
+Any claim that your User Data caused damage to a third party.
+
+11. Governing Law and Dispute Resolution
+
+These Terms shall be governed by and construed in accordance with the laws of India. Any dispute arising out of or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts in [Specify City, e.g., New Delhi], India.
+
+12. Amendments to Terms
+
+We reserve the right to modify these Terms at any time. We will notify you of any changes by posting the new Terms on the Platform. You are advised to review these Terms periodically for any changes. Your continued use of the Service after the posting of revised Terms means that you accept and agree to the changes.
+
+
+
